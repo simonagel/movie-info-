@@ -1,0 +1,71 @@
+#movies img{
+    width:100%;
+    transition: all .2s ease-in-out;
+}
+#movie{
+    width: 100%;
+}
+
+#movie .col-md-4{
+       padding:0;
+    border:1px solid yellow;
+}
+
+#movie .col-md-4 img{
+    height: 100%;
+    width: 100%;
+   margin:0;
+}
+
+#movies .col-md-3 {
+    margin-top:10px;
+    display: flex;
+
+}
+
+#movies .col-md-3 .well{
+    height: 400px;
+    border: 1px solid red;
+}
+
+#movies .col-md-3 img{
+    height: 350px;;
+    border:  1px solid yellow;
+
+}
+
+#link{
+    display:block;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.row1{
+    display:flex;
+}
+
+.row1 .col-md-8 span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    font-weight: bold;
+    color:yellowgreen;
+}
+
+.row1 .col-md-8 span:first-child {
+    font-size:20px;
+    text-decoration: underline;
+    color:yellow;
+}
+
+.plot{
+    border:1px solid yellow;
+    padding:10px;
+    
+    
+}
+
+.plot p{
+    font-weight: bold;
+    color:whitesmoke;
+    font-style: italic;
+}
